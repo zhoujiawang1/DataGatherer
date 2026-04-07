@@ -1,0 +1,17 @@
+# Credentials - never commit these
+credentials.json
+*.json
+
+# Virtual environment
+venv/
+
+# Claude internal
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Sample data (may contain personal health data)
+sample_data/
+health.db
